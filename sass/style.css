@@ -19,7 +19,7 @@
 .background__title {
   margin-top: 80px;
   margin-left: 12px;
-  font-family: "Montserrat";
+  font-family: "Aldrich", sans-serif;
   font-style: Bold;
   font-size: 32px;
   color: white;
@@ -108,7 +108,7 @@
   align-items: center;
   color: white;
   gap: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Aldrich", sans-serif;
   font-style: bold;
   font-size: 14px;
 }
@@ -128,7 +128,7 @@
 .main__navigation-menu li {
   color: white;
   margin: 0 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Aldrich", sans-serif;
   font-style: bold;
   font-size: 14px;
 }
