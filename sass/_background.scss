@@ -1,0 +1,72 @@
+.background {
+        display: flex;
+        align-items: center;
+        height: 100px;
+     
+    &__logo {
+        width: 80px;
+        height: 80px;
+        margin-top: 80px;
+        margin-left: 80px;
+        
+        img {
+           width: 100%; 
+        }
+    }
+    &__title {
+        margin-top: 80px;
+        margin-left: 12px;
+        font-family: 'Montserrat';
+        font-style: Bold;
+        font-size: 32px;
+        color: white;
+        
+    }
+}
+.bg {
+    display: flex;
+    width: 3099px;
+    height: 2323px;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    &-pink-elipse {
+        position: absolute;
+        z-index: -10;
+        left: 0%;
+        top: 0%;
+      
+    }
+    &-white-elipse {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        img {
+            width: 100px;
+        }
+    }
+    &-small-grey-elipse {
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        img {
+            width: 30px;
+        }
+    }
+    &-medium-grey-elipse {
+        position: absolute;
+        top: 170px;
+        right: 50px;
+        img {
+            width: 50px;
+        }
+    }
+    &-grey-elipse {
+        position: absolute;
+        left: 200px;
+        bottom: 0;
+        img {
+            width: 200px;
+        }
+    }
+}

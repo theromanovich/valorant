@@ -1,0 +1,19 @@
+.card-section {
+    width: 2663px;
+    height: 1449px;
+    background-image: url(../img/background.png);
+    z-index: 10000;
+    position: relative;
+    background-color: #FF4656;
+    .agents {
+        font-size: 182px;
+        color: white;
+        letter-spacing: 0.3em;
+        font-family: 'Aldrich', sans-serif;
+        position: absolute;
+        bottom: 47%;
+        left: -12%;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+    }
+}

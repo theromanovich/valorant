@@ -1,0 +1,72 @@
+.main__footer {
+    .footer__card {
+        display: flex;
+        gap: 80px;
+        .white-card {
+            width: 724px;
+            height: 248px;
+            display: flex;
+            background: white;
+            border: 1px solid black;
+            border-radius: 50px 0 0 0;
+            padding: 31px 48px;
+            justify-content: space-around;
+            position: relative;
+            z-index: 200000000;
+            top: -160px;
+            left: -100px;
+        }
+    }
+    .footer__card-title {
+        font-family: 'Aldrich', sans-serif;
+        font-size: 40px;
+        color: gray;
+        margin-bottom: 20px;
+        z-index: 2;
+    }
+    .footer__card-subtitle {
+        font-family: 'Aldrich', sans-serif;
+        font-size: 24px;
+        color: black;
+        margin-bottom: 20px;
+        z-index: 2;
+    }
+    .footer__card-text {
+        font-family: 'Aldrich', sans-serif;
+        font-size: 16px;
+        color: gray;
+        z-index: 2;
+    }
+}   
+.footer__card-img {
+   z-index: 0;
+  
+   &::before {
+    content: '';
+    width: 190px;
+    height: 182px;
+    background: #FF4656;
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+    z-index: -1;
+   }
+}  
+.footer__text-wrapper {
+    z-index: 10;
+}
+.slider-card {
+    width: 219px;
+    height: 248px;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50px 0 0 0;
+    position: relative;
+    z-index: 20200202020;
+    top: -150px;
+    left: -100px;
+}

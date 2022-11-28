@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.background__logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.background__logo img {
+  width: 100%;
+}
+.background__title {
+  margin-top: 80px;
+  margin-left: 12px;
+  font-family: "Montserrat";
+  font-style: Bold;
+  font-size: 32px;
+  color: white;
+}
+
+.bg {
+  display: flex;
+  width: 3099px;
+  height: 2323px;
+  background-color: black;
+  z-index: 2;
+  position: relative;
+}
+.bg-pink-elipse {
+  position: absolute;
+  z-index: -10;
+  left: 0%;
+  top: 0%;
+}
+.bg-white-elipse {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.bg-white-elipse img {
+  width: 100px;
+}
+.bg-small-grey-elipse {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+.bg-small-grey-elipse img {
+  width: 30px;
+}
+.bg-medium-grey-elipse {
+  position: absolute;
+  top: 170px;
+  right: 50px;
+}
+.bg-medium-grey-elipse img {
+  width: 50px;
+}
+.bg-grey-elipse {
+  position: absolute;
+  left: 200px;
+  bottom: 0;
+}
+.bg-grey-elipse img {
+  width: 200px;
+}
+
+.main {
+  max-width: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  transform: translateY(-10%);
+}
+.main__navigation {
+  display: flex;
+  width: 2660px;
+  max-width: 100%;
+  background: #1F2326;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #1F2326;
+  border-radius: 32px 28px 0px 0px;
+  z-index: 1001;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+.main__navigation .logo-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.main__navigation .logo-wrapper .divider {
+  width: 2px;
+  height: 50px;
+  background: white;
+  margin-left: 50px;
+}
+.main__navigation-rightbar {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-size: 14px;
+}
+.main__navigation-rightbar img {
+  width: 100px;
+  border-radius: 100%;
+}
+.main__navigation .sublogo {
+  margin-left: 50px;
+}
+.main__navigation-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 50px;
+}
+.main__navigation-menu li {
+  color: white;
+  margin: 0 50px;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-size: 14px;
+}
+
+.main__footer {
+  width: 2660px;
+  height: 132px;
+  background-color: white;
+  border-bottom: 1px solid white;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.card-section {
+  width: 2663px;
+  height: 1449px;
+  background-image: url(../img/background.png);
+  z-index: 10000;
+  position: relative;
+  background-color: #FF4656;
+}
+.card-section .agents {
+  font-size: 182px;
+  color: white;
+  letter-spacing: 0.3em;
+  font-family: "Aldrich", sans-serif;
+  position: absolute;
+  bottom: 47%;
+  left: -12%;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.cards {
+  display: flex;
+  position: absolute;
+  top: 300px;
+  right: -50px;
+  gap: 100px;
+  z-index: 1001010100;
+}
+
+.card__title {
+  font-size: 156px;
+  color: aqua;
+  font-family: "Aldrich", sans-serif;
+  position: absolute;
+  bottom: 70%;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+.card .title-sage {
+  position: relative;
+  left: -250px;
+}
+.card .title-sova {
+  position: relative;
+  left: -250px;
+}
+.card .title-jett {
+  position: relative;
+  left: -250px;
+}
+.card .title-phoenix {
+  position: absolure;
+  left: -350px;
+}
+.card__logo {
+  position: absolute;
+  left: -29%;
+  bottom: 18%;
+}
+.card__divider {
+  height: 12px;
+  width: 200px;
+  background-color: #6F3337;
+  position: absolute;
+  left: -29%;
+  bottom: 15%;
+}
+.card__title {
+  font-size: 136px;
+  color: #B0E9F0;
+  font-family: "Aldrich", sans-serif;
+  position: absolute;
+  bottom: 62%;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+.card__country {
+  font-size: 56px;
+  color: #FF4656;
+  font-family: "Aldrich", sans-serif;
+  position: absolute;
+  bottom: 70%;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+.card .country-sage {
+  position: relative;
+  left: -137px;
+}
+.card .country-sova {
+  position: relative;
+  left: -137px;
+}
+.card .country-jett {
+  position: relative;
+  left: -137px;
+}
+.card .country-phoenix {
+  position: absolute;
+  left: -172px;
+}
+.card__descr {
+  width: 440px;
+  height: 110px;
+  background-color: #1F2326;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 193px;
+}
+.card .descr-sage {
+  background-color: white;
+  border: 1px solid black;
+  right: -50px;
+}
+.card .descr-jett {
+  right: 49%;
+}
+.card .descr-sova {
+  right: 23%;
+}
+.card .descr-phoenix {
+  right: 75%;
+}
+
+.main__footer .footer__card {
+  display: flex;
+  gap: 80px;
+}
+.main__footer .footer__card .white-card {
+  width: 724px;
+  height: 248px;
+  display: flex;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50px 0 0 0;
+  padding: 31px 48px;
+  justify-content: space-around;
+  position: relative;
+  z-index: 200000000;
+  top: -160px;
+  left: -100px;
+}
+.main__footer .footer__card-title {
+  font-family: "Aldrich", sans-serif;
+  font-size: 40px;
+  color: gray;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+.main__footer .footer__card-subtitle {
+  font-family: "Aldrich", sans-serif;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+.main__footer .footer__card-text {
+  font-family: "Aldrich", sans-serif;
+  font-size: 16px;
+  color: gray;
+  z-index: 2;
+}
+
+.footer__card-img {
+  z-index: 0;
+}
+.footer__card-img::before {
+  content: "";
+  width: 190px;
+  height: 182px;
+  background: #FF4656;
+  position: absolute;
+  bottom: 0;
+  left: 55%;
+  z-index: -1;
+}
+
+.footer__text-wrapper {
+  z-index: 10;
+}
+
+.slider-card {
+  width: 219px;
+  height: 248px;
+  background: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50px 0 0 0;
+  position: relative;
+  z-index: 20200202020;
+  top: -150px;
+  left: -100px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,113 @@
+.cards {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    right: -50px;
+    gap: 100px;
+    z-index: 1001010100;
+    
+}
+.card {
+    &__title {
+        font-size: 156px;
+        color: aqua;
+        font-family: 'Aldrich', sans-serif;
+        position: absolute;
+        bottom: 70%;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+    }
+    .title-sage {
+        position: relative;
+        left: -250px;
+    }
+    .title-sova {
+        position: relative;
+        left: -250px;
+    }
+    .title-jett {
+        position: relative;
+        left: -250px;
+    }
+    .title-phoenix {
+        position: absolure;
+        left: -350px;
+    }
+    &__logo {
+        position: absolute;
+        left: -29%;
+        bottom: 18%;
+    }
+    &__divider {
+        height: 12px;
+        width: 200px;
+        background-color: #6F3337;
+        position: absolute;
+        left: -29%;
+        bottom: 15%;
+    }
+    &__title {
+        font-size: 136px;
+        color: #B0E9F0;
+        font-family: 'Aldrich', sans-serif;
+        position: absolute;
+        bottom: 62%;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+    }
+    &__country {
+        font-size: 56px;
+        color: #FF4656;
+        font-family: 'Aldrich', sans-serif;
+        position: absolute;
+        bottom: 70%;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+    }
+    .country-sage {
+        position: relative;
+        left: -137px;
+    }
+    .country-sova {
+        position: relative;
+        left: -137px;
+    }
+    .country-jett {
+        position: relative;
+        left: -137px;
+    }
+    .country-phoenix {
+        position: absolute;
+        left: -172px;
+    }
+    &__descr {
+        width: 440px;
+        height: 110px;
+        background-color: #1F2326;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        bottom: 193px;
+    }
+    .descr-sage {
+        background-color: white;
+        border: 1px solid black;
+        right: -50px;
+    }
+    .descr-jett {
+        
+        right: 49%;
+    }
+    .descr-sova {
+        
+        right: 23%;
+    }
+    .descr-phoenix {
+        
+        right: 75%;
+    }
+
+}
